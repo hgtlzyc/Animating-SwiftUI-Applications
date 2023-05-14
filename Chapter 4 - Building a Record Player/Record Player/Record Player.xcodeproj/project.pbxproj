@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBCCC77D28304C6000EAFBE1 /* Record_PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC76D28304C6000EAFBE1 /* Record_PlayerApp.swift */; };
+		DBCCC77E28304C6000EAFBE1 /* Record_PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC76D28304C6000EAFBE1 /* Record_PlayerApp.swift */; };
+		DBCCC77F28304C6000EAFBE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC76E28304C6000EAFBE1 /* ContentView.swift */; };
+		DBCCC78028304C6000EAFBE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC76E28304C6000EAFBE1 /* ContentView.swift */; };
+		DBCCC78128304C6000EAFBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCCC76F28304C6000EAFBE1 /* Assets.xcassets */; };
+		DBCCC78228304C6000EAFBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCCC76F28304C6000EAFBE1 /* Assets.xcassets */; };
+		DBCCC78C283053CF00EAFBE1 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC78B283053CF00EAFBE1 /* RecordPlayerBox.swift */; };
+		DBCCC78D283053CF00EAFBE1 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC78B283053CF00EAFBE1 /* RecordPlayerBox.swift */; };
+		DBCCC78F28307DA400EAFBE1 /* RecordButtonArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC78E28307DA400EAFBE1 /* RecordButtonArmView.swift */; };
+		DBCCC79028307DA400EAFBE1 /* RecordButtonArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC78E28307DA400EAFBE1 /* RecordButtonArmView.swift */; };
+		DBCCC7922830870D00EAFBE1 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC7912830870D00EAFBE1 /* PlaySound.swift */; };
+		DBCCC7932830870D00EAFBE1 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCCC7912830870D00EAFBE1 /* PlaySound.swift */; };
+		DBCCC7952830871E00EAFBE1 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DBCCC7942830871E00EAFBE1 /* music.m4a */; };
+		DBCCC7962830871E00EAFBE1 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DBCCC7942830871E00EAFBE1 /* music.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBCCC76D28304C6000EAFBE1 /* Record_PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_PlayerApp.swift; sourceTree = "<group>"; };
+		DBCCC76E28304C6000EAFBE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBCCC76F28304C6000EAFBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCCC77428304C6000EAFBE1 /* Record Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Record Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCCC77A28304C6000EAFBE1 /* Record Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Record Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCCC77C28304C6000EAFBE1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DBCCC78B283053CF00EAFBE1 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
+		DBCCC78E28307DA400EAFBE1 /* RecordButtonArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonArmView.swift; sourceTree = "<group>"; };
+		DBCCC7912830870D00EAFBE1 /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		DBCCC7942830871E00EAFBE1 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCCC77128304C6000EAFBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCCC77728304C6000EAFBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBCCC76728304C5F00EAFBE1 = {
+			isa = PBXGroup;
+			children = (
+				DBCCC76C28304C6000EAFBE1 /* Shared */,
+				DBCCC77B28304C6000EAFBE1 /* macOS */,
+				DBCCC77528304C6000EAFBE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCCC76C28304C6000EAFBE1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DBCCC76D28304C6000EAFBE1 /* Record_PlayerApp.swift */,
+				DBCCC76E28304C6000EAFBE1 /* ContentView.swift */,
+				DBCCC78B283053CF00EAFBE1 /* RecordPlayerBox.swift */,
+				DBCCC78E28307DA400EAFBE1 /* RecordButtonArmView.swift */,
+				DBCCC7912830870D00EAFBE1 /* PlaySound.swift */,
+				DBCCC7942830871E00EAFBE1 /* music.m4a */,
+				DBCCC76F28304C6000EAFBE1 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DBCCC77528304C6000EAFBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCCC77428304C6000EAFBE1 /* Record Player.app */,
+				DBCCC77A28304C6000EAFBE1 /* Record Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCCC77B28304C6000EAFBE1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBCCC77C28304C6000EAFBE1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCCC77328304C6000EAFBE1 /* Record Player (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCCC78528304C6000EAFBE1 /* Build configuration list for PBXNativeTarget "Record Player (iOS)" */;
+			buildPhases = (
+				DBCCC77028304C6000EAFBE1 /* Sources */,
+				DBCCC77128304C6000EAFBE1 /* Frameworks */,
+				DBCCC77228304C6000EAFBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Record Player (iOS)";
+			productName = "Record Player (iOS)";
+			productReference = DBCCC77428304C6000EAFBE1 /* Record Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCCC77928304C6000EAFBE1 /* Record Player (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCCC78828304C6000EAFBE1 /* Build configuration list for PBXNativeTarget "Record Player (macOS)" */;
+			buildPhases = (
+				DBCCC77628304C6000EAFBE1 /* Sources */,
+				DBCCC77728304C6000EAFBE1 /* Frameworks */,
+				DBCCC77828304C6000EAFBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Record Player (macOS)";
+			productName = "Record Player (macOS)";
+			productReference = DBCCC77A28304C6000EAFBE1 /* Record Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCCC76828304C5F00EAFBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DBCCC77328304C6000EAFBE1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DBCCC77928304C6000EAFBE1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DBCCC76B28304C5F00EAFBE1 /* Build configuration list for PBXProject "Record Player" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCCC76728304C5F00EAFBE1;
+			productRefGroup = DBCCC77528304C6000EAFBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCCC77328304C6000EAFBE1 /* Record Player (iOS) */,
+				DBCCC77928304C6000EAFBE1 /* Record Player (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCCC77228304C6000EAFBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCCC7952830871E00EAFBE1 /* music.m4a in Resources */,
+				DBCCC78128304C6000EAFBE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCCC77828304C6000EAFBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCCC7962830871E00EAFBE1 /* music.m4a in Resources */,
+				DBCCC78228304C6000EAFBE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCCC77028304C6000EAFBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCCC7922830870D00EAFBE1 /* PlaySound.swift in Sources */,
+				DBCCC77F28304C6000EAFBE1 /* ContentView.swift in Sources */,
+				DBCCC77D28304C6000EAFBE1 /* Record_PlayerApp.swift in Sources */,
+				DBCCC78F28307DA400EAFBE1 /* RecordButtonArmView.swift in Sources */,
+				DBCCC78C283053CF00EAFBE1 /* RecordPlayerBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCCC77628304C6000EAFBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCCC7932830870D00EAFBE1 /* PlaySound.swift in Sources */,
+				DBCCC78028304C6000EAFBE1 /* ContentView.swift in Sources */,
+				DBCCC77E28304C6000EAFBE1 /* Record_PlayerApp.swift in Sources */,
+				DBCCC79028307DA400EAFBE1 /* RecordButtonArmView.swift in Sources */,
+				DBCCC78D283053CF00EAFBE1 /* RecordPlayerBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBCCC78328304C6000EAFBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBCCC78428304C6000EAFBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DBCCC78628304C6000EAFBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4YWUWL5V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SMDAppTech.Record-Player";
+				PRODUCT_NAME = "Record Player";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBCCC78728304C6000EAFBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4YWUWL5V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SMDAppTech.Record-Player";
+				PRODUCT_NAME = "Record Player";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCCC78928304C6000EAFBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4YWUWL5V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SMDAppTech.Record-Player";
+				PRODUCT_NAME = "Record Player";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBCCC78A28304C6000EAFBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4YWUWL5V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SMDAppTech.Record-Player";
+				PRODUCT_NAME = "Record Player";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCCC76B28304C5F00EAFBE1 /* Build configuration list for PBXProject "Record Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCCC78328304C6000EAFBE1 /* Debug */,
+				DBCCC78428304C6000EAFBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCCC78528304C6000EAFBE1 /* Build configuration list for PBXNativeTarget "Record Player (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCCC78628304C6000EAFBE1 /* Debug */,
+				DBCCC78728304C6000EAFBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCCC78828304C6000EAFBE1 /* Build configuration list for PBXNativeTarget "Record Player (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCCC78928304C6000EAFBE1 /* Debug */,
+				DBCCC78A28304C6000EAFBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCCC76828304C5F00EAFBE1 /* Project object */;
+}
